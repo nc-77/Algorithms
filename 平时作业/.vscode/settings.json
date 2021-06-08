@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "*.cpp": "cpp",
+        "iostream": "cpp",
+        "random": "cpp",
+        "*.tcc": "c",
+        "forward_list": "c",
+        "list": "c",
+        "regex": "c",
+        "cstdlib": "c"
+    }
+}

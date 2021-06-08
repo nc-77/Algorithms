@@ -1,0 +1,34 @@
+#include<bits/stdc++.h>
+#define ll long long
+#define debug(x) cout<<#x<<'='<<x<<endl
+#define set0(x) memset(x,0,sizeof(x))
+using namespace std;
+const int inf=0x3f3f3f3f;
+const int maxn=2e6+10;
+int main()
+{
+   int t;
+   cin>>t;
+   while(t--)
+   {
+       int n;
+       cin>>n;
+       string s;
+       cin>>s;
+       int len=s.size();
+       if(len>=n) cout<<s<<endl;
+       else
+       {
+           n-=len;
+           int x=n/4,y=n%4;
+           cout<<s;
+           for(int i=0;i<x;i++)
+           cout<<"zsbd";
+          if(y)cout<<"zsbd";
+           cout<<endl;
+       }
+       
+   }
+   //system("pause");
+   return 0;
+}
